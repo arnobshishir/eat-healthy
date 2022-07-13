@@ -96,7 +96,7 @@ span {
     font-size: 20px;
     color: rgb(16, 24, 24);
     text-align: center;
-    margin: 10px 10px;
+    margin: 10px 40px;
 
 }
 
@@ -118,4 +118,39 @@ span {
     font-family: "poppins", sans-serif;
     font-weight: 500;
     letter-spacing: 1.5px;
+}
+
+.my-recipe h2 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(26, 37, 37);
+}
+
+.my-recipe p {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(39, 59, 59);
+    margin: 2% 10%;
+}
+
+.recipes {
+    display: flex;
+    margin-bottom: 150px;
+    padding: 10px 40px 10px 20px;
+    border: 10px;
+}
+
+.recipe-item img {
+    width: 500px;
+    height: 400px;
+}
+
+.recipe-item {
+    width: 40%;
+    margin: 0% 3%;
+    padding-top: 2%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
 }
