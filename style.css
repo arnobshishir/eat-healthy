@@ -1,0 +1,13 @@
+* {
+    margin: 0 auto;
+    padding: 0px;
+    text-decoration: none;
+
+}
+
+body {
+    font-family: 'Cookie', cursive;
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
