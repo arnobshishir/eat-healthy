@@ -1,9 +1,6 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 body {
+    margin: 0%;
+    padding: 0%;
     font-family: 'Cookie', cursive;
     font-family: 'Cormorant SC', serif;
     font-family: 'Poppins', sans-serif;
@@ -11,17 +8,17 @@ body {
 }
 
 .top-banner {
-    position: absolute;
     display: flex;
-    background: url(images/shapes/Frame\ 57.jpg);
-    background-repeat: no-repeat;
+    background: url(images/shapes/Frame\ 58.jpg);
+
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.25);
+    margin-bottom: 1rem;
 
 }
 
 h1 {
-    position: relative;
+
     text-decoration: none;
     font-size: 50px;
     color: darkslategray;
@@ -30,20 +27,19 @@ h1 {
 }
 
 span {
-    color: orangered;
+    color: rgb(234, 38, 4);
 }
 
-p {
-    font-size: 20px;
+.top-banner p {
+    font-size: 25px;
     color: darkslategrey;
     text-align: center;
     margin-top: 20px;
 }
 
 .half-width {
-    width: 40%;
+    width: 50%;
     margin-left: 5%;
-    margin-right: 5%;
 }
 
 .half-width img {
@@ -64,13 +60,61 @@ p {
 
 
 .btn-com {
-    border: 1px solid orangered;
+    border: 1px solid rgb(234, 38, 4);
     border-radius: 10px;
-    background: linear-gradient(to bottom, orangered, rgb(243, 108, 59));
+    background: linear-gradient(to bottom, rgb(192, 15, 9), rgb(248, 55, 97));
     padding: 20px;
     font-size: 20px;
     cursor: pointer;
     margin: 10px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.about-me {
+    display: flex;
+
+    background: url(images/shapes/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+
+
+.about-me h2 {
+    margin-top: 100px;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(36, 57, 57);
+    text-align: center;
+}
+
+.about-me p {
+
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(16, 24, 24);
+    text-align: center;
+    margin: 10px 10px;
+
+}
+
+
+.btn-com2 a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.btn-com2 {
+    border: 1px solid rgb(22, 179, 181);
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(0, 109, 152), rgb(73, 203, 255));
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
     font-family: "poppins", sans-serif;
     font-weight: 500;
     letter-spacing: 1.5px;
